@@ -1,0 +1,2 @@
+main.a1:::src/main.cpp
+module.a1:::src/module/module.cpp

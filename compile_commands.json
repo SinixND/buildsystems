@@ -1,0 +1,44 @@
+[
+ {
+  "directory": "/home/arch/coding/git_repos/buildsystem",
+  "arguments": [
+   "clang++",
+   "-o",
+   "build/release/unix/src/main.cpp.o",
+   "-c",
+   "src/main.cpp",
+   "-std=c++20",
+   "-MMD",
+   "-MP",
+   "-O2",
+   "-DNDEBUG",
+   "-Isrc",
+   "-Isrc/module",
+   "-Iinclude",
+   "-Iinclude/ext",
+   "-isystem/usr/local/lib/raylib/src"
+  ],
+  "file": "src/main.cpp"
+ },
+ {
+  "directory": "/home/arch/coding/git_repos/buildsystem",
+  "arguments": [
+   "clang++",
+   "-o",
+   "build/release/unix/src/module/module.cpp.o",
+   "-c",
+   "src/module/module.cpp",
+   "-std=c++20",
+   "-MMD",
+   "-MP",
+   "-O2",
+   "-DNDEBUG",
+   "-Isrc",
+   "-Isrc/module",
+   "-Iinclude",
+   "-Iinclude/ext",
+   "-isystem/usr/local/lib/raylib/src"
+  ],
+  "file": "src/module/module.cpp"
+ }
+]

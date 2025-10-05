@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="10180699938328748103">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="src/main.cpp" functionName="main" lineNumber="6" column="5"/>
+    <functioncall functionName="TWO"/>
+    <functioncall functionName="prnt"/>
+  </FileInfo>
+</analyzerinfo>
